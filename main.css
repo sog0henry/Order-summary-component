@@ -25,10 +25,14 @@ body {
     border-radius: 20px;
     overflow: hidden;
     background-color: white;
+    box-shadow: 0 0 30px #000000a1;
 }
 .landing .design .content {
     padding: 20px;
     text-align: center;
+}
+.landing .design .content > img {
+    width: 100%;
 }
 .landing .design .content h1 + p {
     line-height: 2;
@@ -112,5 +116,4 @@ body {
         left: 35px;
 }
     }
-}
 /* End Design */
