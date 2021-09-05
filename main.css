@@ -31,7 +31,7 @@ body {
     padding: 20px;
     text-align: center;
 }
-.landing .design .content > img {
+.landing .design > img {
     width: 100%;
 }
 .landing .design .content h1 + p {
@@ -41,7 +41,10 @@ body {
 .landing .content .plan {
     display: flex;
     align-items: center;
-    padding: 40px;
+    padding: 15px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 .landing .content .plan img {
     margin-right: 20px;
